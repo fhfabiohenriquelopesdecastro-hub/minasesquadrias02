@@ -1,5 +1,6 @@
 import Hero from "@/app/components/hero";
 import Diferenciais from "@/app/components/diferenciais";
+import Transicao from "@/app/components/transicao";
 import Servicos from "@/app/components/servicos";
 import Processo from "@/app/components/processo";
 import Projetos from "@/app/components/projetos";
@@ -13,6 +14,7 @@ export default function Home() {
     <>
       <Hero />
       <Diferenciais />
+      <Transicao />
       <Servicos />
       <Processo />
       <Projetos />

@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Image from "next/image";
 import { MessageCircle } from "lucide-react";
 
 export default function Header() {
@@ -24,9 +23,9 @@ export default function Header() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-3">
         <a href="/" className="flex items-center">
           <img
-            src="/assets/brand/logo-cliente.png"
+            src="/assets/brand/logo-branco-transparente.png"
             alt="Minas Esquadrias"
-            className="h-16 w-auto rounded object-contain"
+            className="h-16 w-auto object-contain"
           />
         </a>
 

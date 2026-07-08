@@ -12,9 +12,9 @@ export default function Footer() {
         <div className="grid gap-12 md:grid-cols-3">
           <div>
             <img
-              src="/assets/brand/logo-cliente.png"
+              src="/assets/brand/logo-branco-transparente.png"
               alt="Minas Esquadrias"
-              className="mb-4 h-20 w-auto rounded object-contain"
+              className="mb-4 h-20 w-auto object-contain"
             />
             <p className="text-sm leading-relaxed text-[#B8BEC4]/70">
               Fabricação e instalação de esquadrias de alumínio e vidros sob
