@@ -45,14 +45,14 @@ const cardVariants = {
 };
 
 const placeholders = [
-  "/assets/work/img-1.jpeg",
-  "/assets/work/img-2.jpeg",
-  "/assets/work/img-3.jpeg",
-  "/assets/work/img-4.jpeg",
-  "/assets/work/img-5.jpeg",
-  "/assets/work/img-6.jpeg",
-  "/assets/work/img-7.jpeg",
-  "/assets/work/img-8.jpeg",
+  "/assets/work/porta-vidro-01.jpeg",
+  "/assets/work/janela-aluminio-01.jpeg",
+  "/assets/work/divisoria-vidro-01.jpeg",
+  "/assets/work/fachada-predial-01.jpeg",
+  "/assets/work/fachada-comercial-01.jpeg",
+  "/assets/work/estrutura-metalica-01.jpeg",
+  "/assets/work/porta-vidro-espelho-01.jpeg",
+  "/assets/work/fachada-janela-01.jpeg",
 ];
 
 /*

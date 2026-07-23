@@ -28,7 +28,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-3">
                 <Phone className="mt-0.5 h-4 w-4 shrink-0 text-[#2563EB]" />
-                <span>(31) 99999-9999</span>
+                <span>(34) 99635-4848</span>
               </li>
               <li>
                 <a
@@ -38,7 +38,7 @@ export default function Footer() {
                   className="flex items-start gap-3 transition-colors hover:text-white"
                 >
                   <MessageCircle className="mt-0.5 h-4 w-4 shrink-0 text-[#2563EB]" />
-                  <span>WhatsApp: (31) 99999-9999</span>
+                  <span>WhatsApp: (34) 99635-4848</span>
                 </a>
               </li>
               <li className="flex items-start gap-3">

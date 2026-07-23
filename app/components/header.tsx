@@ -30,7 +30,7 @@ export default function Header() {
         </a>
 
         <a
-          href="https://wa.me/5531999999999"
+          href="https://wa.me/5534996354848"
           target="_blank"
           rel="noopener noreferrer"
           className="flex items-center gap-2 rounded-lg bg-[#2563EB] px-4 py-2 text-sm font-medium text-white transition-all hover:bg-[#1d4ed8]"

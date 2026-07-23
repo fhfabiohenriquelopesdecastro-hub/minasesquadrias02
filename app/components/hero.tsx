@@ -33,7 +33,7 @@ export default function Hero() {
             Solicitar Orçamento
           </a>
           <a
-            href="https://wa.me/5531999999999"
+            href="https://wa.me/5534996354848"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex h-14 w-full items-center justify-center gap-2 rounded-lg border-2 border-white/30 px-10 text-base font-semibold text-white transition-all hover:border-white/60 hover:bg-white/10 sm:w-auto"
@@ -49,7 +49,7 @@ export default function Hero() {
         Substituir pelo telefone real da empresa.
       */}
       <a
-        href="https://wa.me/5531999999999"
+        href="https://wa.me/5534996354848"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 flex h-14 w-14 items-center justify-center rounded-full bg-[#2563EB] text-white shadow-lg transition-all hover:bg-[#1d4ed8] hover:shadow-xl"

@@ -64,7 +64,7 @@ export default function RootLayout({
                 addressRegion: "MG",
                 addressCountry: "BR",
               },
-              telephone: "+55 31 99999-9999",
+              telephone: "+55 34 99635-4848",
               url: "https://minas-esquadrias.vercel.app",
               priceRange: "$$",
             }),
