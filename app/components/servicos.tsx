@@ -45,14 +45,14 @@ const cardVariants = {
 };
 
 const placeholders = [
-  "https://images.unsplash.com/photo-1661958806634-b73ddfbadaea?w=600&q=75",
-  "https://images.unsplash.com/photo-1778222413919-0821c825cfaf?w=600&q=75",
-  "https://images.unsplash.com/photo-1763485956293-873ea83bf095?w=600&q=75",
-  "https://images.unsplash.com/photo-1763116147214-369ad5ce72eb?w=600&q=75",
-  "https://images.unsplash.com/photo-1773924624330-7e7cc51d8838?w=600&q=75",
-  "https://images.unsplash.com/photo-1762419757238-28ffcd7e034c?w=600&q=75",
-  "https://images.unsplash.com/photo-1674480165857-744dbb4c671f?w=600&q=75",
-  "https://images.unsplash.com/photo-1774103341340-471f6524f274?w=600&q=75",
+  "/assets/work/img-1.jpeg",
+  "/assets/work/img-2.jpeg",
+  "/assets/work/img-3.jpeg",
+  "/assets/work/img-4.jpeg",
+  "/assets/work/img-5.jpeg",
+  "/assets/work/img-6.jpeg",
+  "/assets/work/img-7.jpeg",
+  "/assets/work/img-8.jpeg",
 ];
 
 /*

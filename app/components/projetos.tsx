@@ -18,14 +18,14 @@ interface Projeto {
 const categorias = ["Todos", "Residencial", "Comercial", "Fachadas"];
 
 const projetos: Projeto[] = [
-  { id: 1, titulo: "Portas de Alumínio", categoria: "Residencial", img: "https://images.unsplash.com/photo-1517649763962-0c623066013b?w=600&q=75" },
-  { id: 2, titulo: "Fachada Comercial", categoria: "Fachadas", img: "https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=75" },
-  { id: 3, titulo: "Box Banheiro", categoria: "Residencial", img: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&q=75" },
-  { id: 4, titulo: "Guarda-Corpo Edifício", categoria: "Comercial", img: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=600&q=75" },
-  { id: 5, titulo: "Envidraçamento Sacada", categoria: "Residencial", img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=75" },
-  { id: 6, titulo: "Cobertura Metálica", categoria: "Comercial", img: "https://images.unsplash.com/photo-1460574283810-2aab119d8511?w=600&q=75" },
-  { id: 7, titulo: "Fachada Residencial", categoria: "Fachadas", img: "https://images.unsplash.com/photo-1518005020951-eccb494ad742?w=600&q=75" },
-  { id: 8, titulo: "Janelas Panorâmicas", categoria: "Residencial", img: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=75" },
+  { id: 1, titulo: "Portas de Alumínio", categoria: "Residencial", img: "/assets/work/img-3.jpeg" },
+  { id: 2, titulo: "Fachada Comercial", categoria: "Fachadas", img: "/assets/work/img-4.jpeg" },
+  { id: 3, titulo: "Box Banheiro", categoria: "Residencial", img: "/assets/work/img-5.jpeg" },
+  { id: 4, titulo: "Guarda-Corpo Edifício", categoria: "Comercial", img: "/assets/work/img-6.jpeg" },
+  { id: 5, titulo: "Envidraçamento Sacada", categoria: "Residencial", img: "/assets/work/img-7.jpeg" },
+  { id: 6, titulo: "Cobertura Metálica", categoria: "Comercial", img: "/assets/work/img-8.jpeg" },
+  { id: 7, titulo: "Fachada Residencial", categoria: "Fachadas", img: "/assets/work/img-9.jpeg" },
+  { id: 8, titulo: "Janelas Panorâmicas", categoria: "Residencial", img: "/assets/work/img-10.jpeg" },
 ];
 
 export default function Projetos() {
