@@ -18,14 +18,14 @@ import {
 */
 
 const servicos = [
-  { icon: DoorOpen, title: "Portas de Alumínio" },
-  { icon: AppWindow, title: "Janelas" },
-  { icon: ShowerHead, title: "Box para Banheiro" },
-  { icon: Fence, title: "Guarda-Corpo" },
-  { icon: Building2, title: "Fachadas" },
-  { icon: Warehouse, title: "Coberturas" },
-  { icon: Scan, title: "Espelhos" },
-  { icon: GlassWater, title: "Envidraçamento" },
+  { icon: DoorOpen, title: "Porta Vidro", img: "/assets/work/porta-vidro-01.jpeg" },
+  { icon: AppWindow, title: "Janela Alumínio", img: "/assets/work/janela-aluminio-01.jpeg" },
+  { icon: ShowerHead, title: "Divisória Vidro", img: "/assets/work/divisoria-vidro-01.jpeg" },
+  { icon: Fence, title: "Fachada Predial", img: "/assets/work/fachada-predial-01.jpeg" },
+  { icon: Building2, title: "Fachada Comercial", img: "/assets/work/fachada-comercial-01.jpeg" },
+  { icon: Warehouse, title: "Estrutura Metálica", img: "/assets/work/estrutura-metalica-01.jpeg" },
+  { icon: Scan, title: "Porta Vidro Espelho", img: "/assets/work/porta-vidro-espelho-01.jpeg" },
+  { icon: GlassWater, title: "Fachada Janela", img: "/assets/work/fachada-janela-01.jpeg" },
 ];
 
 const containerVariants = {
@@ -43,17 +43,6 @@ const cardVariants = {
     transition: { duration: 0.4, ease: "easeOut" as const },
   },
 };
-
-const placeholders = [
-  "/assets/work/porta-vidro-01.jpeg",
-  "/assets/work/janela-aluminio-01.jpeg",
-  "/assets/work/divisoria-vidro-01.jpeg",
-  "/assets/work/fachada-predial-01.jpeg",
-  "/assets/work/fachada-comercial-01.jpeg",
-  "/assets/work/estrutura-metalica-01.jpeg",
-  "/assets/work/porta-vidro-espelho-01.jpeg",
-  "/assets/work/fachada-janela-01.jpeg",
-];
 
 /*
   Placeholder de fotos — imagens do Unsplash usadas como demonstração.
@@ -100,7 +89,7 @@ export default function Servicos() {
                 */}
                 <div
                   className="flex aspect-[4/3] items-center justify-center bg-cover bg-center transition-all duration-500 group-hover:scale-105"
-                  style={{ backgroundImage: `url('${placeholders[index]}')` }}
+                  style={{ backgroundImage: `url('${item.img}')` }}
                 >
                   <div className="absolute inset-0 bg-black/30 transition-all duration-300 group-hover:bg-black/10" />
                   <Icon className="relative h-12 w-12 text-white/60 transition-all duration-300 group-hover:scale-110 group-hover:text-white/90" />

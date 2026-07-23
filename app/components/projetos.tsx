@@ -18,14 +18,14 @@ interface Projeto {
 const categorias = ["Todos", "Residencial", "Comercial", "Fachadas"];
 
 const projetos: Projeto[] = [
-  { id: 1, titulo: "Portas de Alumínio", categoria: "Residencial", img: "/assets/work/porta-corredor-01.jpeg" },
+  { id: 1, titulo: "Porta Corredor", categoria: "Residencial", img: "/assets/work/porta-corredor-01.jpeg" },
   { id: 2, titulo: "Fachada Comercial", categoria: "Fachadas", img: "/assets/work/fachada-comercial-01.jpeg" },
-  { id: 3, titulo: "Box Banheiro", categoria: "Residencial", img: "/assets/work/divisoria-vidro-02.jpeg" },
-  { id: 4, titulo: "Guarda-Corpo Edifício", categoria: "Comercial", img: "/assets/work/fachada-predio-01.jpeg" },
-  { id: 5, titulo: "Envidraçamento Sacada", categoria: "Residencial", img: "/assets/work/janela-esquina-01.jpeg" },
-  { id: 6, titulo: "Cobertura Metálica", categoria: "Comercial", img: "/assets/work/estrutura-metalica-01.jpeg" },
+  { id: 3, titulo: "Divisória Vidro", categoria: "Residencial", img: "/assets/work/divisoria-vidro-02.jpeg" },
+  { id: 4, titulo: "Fachada Prédio", categoria: "Comercial", img: "/assets/work/fachada-predio-01.jpeg" },
+  { id: 5, titulo: "Janela Esquina", categoria: "Residencial", img: "/assets/work/janela-esquina-01.jpeg" },
+  { id: 6, titulo: "Estrutura Metálica", categoria: "Comercial", img: "/assets/work/estrutura-metalica-01.jpeg" },
   { id: 7, titulo: "Fachada Residencial", categoria: "Fachadas", img: "/assets/work/fachada-residencial-01.jpeg" },
-  { id: 8, titulo: "Janelas Panorâmicas", categoria: "Residencial", img: "/assets/work/janela-tijolo-01.jpeg" },
+  { id: 8, titulo: "Janela Tijolo", categoria: "Residencial", img: "/assets/work/janela-tijolo-01.jpeg" },
 ];
 
 export default function Projetos() {
